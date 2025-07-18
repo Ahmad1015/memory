@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from detector import detect_objects
-from captioner import generate_caption  # 🆕 BLIP captioning
+from captioner import generate_caption
 from memory import store_caption , query_caption
 
 st.set_page_config(page_title="Visual Memory Assistant", layout="wide")
