@@ -4,3 +4,5 @@ Pillow
 onnxruntime
 torch
 transformers
+sentence-transformers
+chromadb
